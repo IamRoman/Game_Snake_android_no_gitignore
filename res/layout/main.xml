@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/main_bg"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:baselineAligned="false" android:gravity="center_vertical">
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Start"
+                android:id="@+id/btnStart" android:textColor="@android:color/holo_green_dark"
+                android:layout_marginTop="50dp" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Information"
+                android:id="@+id/btnInformation" android:textColor="@android:color/holo_green_dark"
+                android:layout_marginLeft="10dp" android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit"
+                android:id="@+id/btnExit" android:textColor="@android:color/holo_green_dark"
+                android:layout_marginLeft="10dp" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>
+
